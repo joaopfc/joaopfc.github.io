@@ -69,7 +69,8 @@ const cadCollection = [
     categoryName: "Impressão 3D",
     software: "Onshape",
     modelUrl: "models/CorpoEsfericoComValvula.glb",
-    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D."
+    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D.",
+    orientation: "270deg 270deg 0deg"
   },
   {
     id: "duto-resfriador-aditivo",
@@ -78,7 +79,8 @@ const cadCollection = [
     categoryName: "Impressão 3D",
     software: "Onshape",
     modelUrl: "models/ChapaDobrada.glb",
-    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D."
+    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D.",
+    orientation: "0deg 270deg 0deg"
   },
   {
     id: "duto-resfriador-aditivo",
@@ -87,7 +89,8 @@ const cadCollection = [
     categoryName: "Impressão 3D",
     software: "Onshape",
     modelUrl: "models/EixoRosqueado.glb",
-    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D."
+    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D.",
+    orientation: "90deg 0deg 0deg"
   },
   {
     id: "duto-resfriador-aditivo",
@@ -105,7 +108,8 @@ const cadCollection = [
     categoryName: "Impressão 3D",
     software: "Onshape",
     modelUrl: "models/EngrenagemCilindricaDentesRetos.glb",
-    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D."
+    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D.",
+    orientation: "0deg 45deg 0deg"
   },
   {
     id: "duto-resfriador-aditivo",
@@ -114,7 +118,8 @@ const cadCollection = [
     categoryName: "Impressão 3D",
     software: "Onshape",
     modelUrl: "models/GarfoDeArticulacao.glb",
-    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D."
+    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D.",
+    orientation: "0deg 270deg 0deg"
   },
 {
     id: "duto-resfriador-aditivo",
@@ -123,7 +128,8 @@ const cadCollection = [
     categoryName: "Impressão 3D",
     software: "Onshape",
     modelUrl: "models/MancalComCurva.glb",
-    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D."
+    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D.",
+    orientation: "0deg 90deg 0deg"
   },
   {
     id: "duto-resfriador-aditivo",
@@ -132,7 +138,8 @@ const cadCollection = [
     categoryName: "Impressão 3D",
     software: "Onshape",
     modelUrl: "models/PlacaCNC.glb",
-    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D."
+    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D.",
+    orientation: "0deg 90deg 0deg"
   },
   {
     id: "duto-resfriador-aditivo",
@@ -150,7 +157,8 @@ const cadCollection = [
     categoryName: "Impressão 3D",
     software: "Onshape",
     modelUrl: "models/PlacaFurosRosqueada.glb",
-    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D."
+    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D.",
+    orientation: "0deg 270deg 0deg"
   },
   {
     id: "duto-resfriador-aditivo",
@@ -159,7 +167,8 @@ const cadCollection = [
     categoryName: "Impressão 3D",
     software: "Onshape",
     modelUrl: "models/SuporteArticulacaoFlangeado.glb",
-    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D."
+    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D.",
+    orientation: "0deg 90deg 0deg"
   },
   {
     id: "duto-resfriador-aditivo",
@@ -168,7 +177,8 @@ const cadCollection = [
     categoryName: "Impressão 3D",
     software: "Onshape",
     modelUrl: "models/SuporteFixacaoDuplo.glb",
-    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D."
+    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D.",
+    orientation: "90deg 90deg 0deg"
   },
   {
     id: "duto-resfriador-aditivo",
@@ -177,6 +187,17 @@ const cadCollection = [
     categoryName: "Impressão 3D",
     software: "Onshape",
     modelUrl: "models/TuboFlexivelComCurva.glb",
-    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D."
+    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D.",
+    orientation: "0deg 90deg 0deg"
+  },
+  {
+    id: "duto-resfriador-aditivo5",
+    title: "Duto Aerodinâmico FDM",
+    category: "aditiva",
+    categoryName: "Impressão 3D",
+    software: "Onshape",
+    modelUrl: "models/SuportePaquimetro.glb",
+    summary: "Duto projetado em DfAM com ângulos livres de suporte para refrigeração de bico 3D.",
+    orientation: "0deg 270deg 0deg"
   },
 ];
